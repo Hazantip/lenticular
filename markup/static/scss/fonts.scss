@@ -1,0 +1,39 @@
+/* Your custom fonts here */
+
+/* Example
+
+@font-face {
+    font-family: 'CustomFont';
+    src: url('../fonts/Custom-Font.eot');
+    src: url('../fonts/Custom-Font.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Custom-Font.woff') format('woff'),
+         url('../fonts/Custom-Font.svg#custom_font') format('svg');
+    font-weight: 400;       // For normal width. It could has another value
+    font-style: normal;     // Also could has another value
+    }
+
+
+// Var for using custom font
+$CustomFont: 'CustomFont', Helvetica, Arial, sans-serif;
+*/
+//@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,500);
+//
+//@font-face {
+//	font-family: 'Reforma';
+//	src: url('../fonts/reforma/webfont/reformanarrowregularwebfont.eot');
+//	src: url('../fonts/reforma/webfont/reformanarrowregularwebfont.eot?#iefix') format('embedded-opentype'),
+//	url('../fonts/reforma/webfont/reformanarrowregularwebfont.svg#custom_font') format('svg'),
+//	url('../fonts/reforma/webfont/reformanarrowregularwebfont.woff') format('woff');
+//	font-weight: 300;       // For normal width. It could has another value
+//	font-style: normal;     // Also could has another value
+//}
+//
+//@font-face {
+//	font-family: 'Reforma';
+//	src: url('../fonts/reforma/webfont/reformanarrowmediumwebfont.eot');
+//	src: url('../fonts/reforma/webfont/reformanarrowmediumwebfont.eot?#iefix') format('embedded-opentype'),
+//	url('../fonts/reforma/webfont/reformanarrowmediumwebfont.svg#custom_font') format('svg'),
+//	url('../fonts/reforma/webfont/reformanarrowmediumwebfont.woff') format('woff');
+//	font-weight: 700;       // For normal width. It could has another value
+//	font-style: normal;     // Also could has another value
+//}
