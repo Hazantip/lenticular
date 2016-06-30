@@ -109,14 +109,14 @@ class Lenticular {
 
 	attachEvets() {
 
+		$(this.container).on('mousemove', (e) => { this.mousemoveListener(e) });
+
 		if (window.DeviceOrientationEvent) {
 			window.addEventListener('deviceorientation', (e) => { this.accelerateListener(e) });
 		}
 		else if (window.DeviceMotionEvent) {
 			window.addEventListener('devicemotion', (e) => { this.accelerateListener(e) });
 		}
-
-		$(this.container).on('touchmove mousemove ', (e) => { this.mousemoveListener(e) });
 
 		window.addEventListener('resize', (e) => { this.resizeListener(e) });
 	}
